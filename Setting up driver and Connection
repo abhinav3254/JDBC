@@ -1,0 +1,28 @@
+
+import java.sql.*;
+class First{
+	public static void main(String[] args){
+		
+			try{
+
+				// Loading the driver
+				Class.forName("com.mysql.cj.jdbc.Driver");
+
+				// Setting up Connection
+			
+				String url = "";
+				String username = "";
+				String password = "";
+			
+				Connection connection = DriverManager.getConnection(url, username, password);
+
+				if(connection.isClosed()){
+					System.out.println("Connection Not Created");
+				} else {
+					System.out.println("Connected");
+				}
+			} catch(Exception e){
+				e.printStackTrace();
+			}
+	}
+}
