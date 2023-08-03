@@ -20,7 +20,9 @@ public class App {
 			System.out.println("connection open");
 
 //		bookFlight();
-		UserAuth.userAuthLogIn("123457","1234");
+//		UserAuth.userAuthLogIn("123457","1234");
+		
+		FlightOperations.searchForFlight("dbr","hyd");
 
 		connection.close();
 	}
