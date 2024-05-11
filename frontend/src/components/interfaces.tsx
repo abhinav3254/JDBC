@@ -12,3 +12,12 @@ export interface Brand {
     name: string
     logo: string
 }
+
+export interface Trending {
+    id: number
+    name: string
+    image: string
+    originalPrice: string
+    oldPrice: string
+    sizes: string[]
+}
