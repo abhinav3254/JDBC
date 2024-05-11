@@ -7,7 +7,6 @@
         "oldPrice": "Rs 1,349",
         "sizes": [
             "S",
-            "M",
             "L",
             "XL"
         ]
@@ -20,8 +19,6 @@
         "oldPrice": "Rs 1,800",
         "sizes": [
             "S",
-            "M",
-            "L",
             "XL"
         ]
     },
@@ -45,8 +42,8 @@
         "originalPrice": "Rs 540",
         "oldPrice": "Rs 1,800",
         "sizes": [
+            "XS",
             "S",
-            "M",
             "L",
             "XL"
         ]
@@ -60,8 +57,7 @@
         "sizes": [
             "S",
             "M",
-            "L",
-            "XL"
+            "L"
         ]
     },
     {
@@ -71,9 +67,6 @@
         "originalPrice": "Rs 540",
         "oldPrice": "Rs 1,800",
         "sizes": [
-            "S",
-            "M",
-            "L",
             "XL"
         ]
     },
@@ -86,8 +79,7 @@
         "sizes": [
             "S",
             "M",
-            "L",
-            "XL"
+            "L"
         ]
     },
     {
@@ -97,7 +89,6 @@
         "originalPrice": "Rs 540",
         "oldPrice": "Rs 1,800",
         "sizes": [
-            "S",
             "M",
             "L",
             "XL"
@@ -123,7 +114,6 @@
         "originalPrice": "Rs 540",
         "oldPrice": "Rs 1,800",
         "sizes": [
-            "S",
             "M",
             "L",
             "XL"
@@ -136,8 +126,6 @@
         "originalPrice": "Rs 540",
         "oldPrice": "Rs 1,800",
         "sizes": [
-            "S",
-            "M",
             "L",
             "XL"
         ]
@@ -151,7 +139,6 @@
         "sizes": [
             "S",
             "M",
-            "L",
             "XL"
         ]
     }
