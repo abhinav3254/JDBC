@@ -73,17 +73,18 @@ CREATE TABLE cloth (
 
 CREATE TABLE review_image (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    image BLOB
+    image BLOB,
+    review_id INT,
+    FOREIGN KEY (review_id) REFERENCES review(id)
 );
 
 CREATE TABLE review (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    rating DECIMAL(2, 1) NOT NULL,
+    rating DECIMAL(3, 1) NOT NULL,
     cloth_id INT,
     user_id INT,
     comments TEXT,
-    review_image_id INT,
+    posted_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (cloth_id) REFERENCES cloth(id),
-    FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (review_image_id) REFERENCES review_image(id)
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
