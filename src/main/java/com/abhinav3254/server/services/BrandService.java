@@ -81,7 +81,9 @@ public class BrandService {
     }
 
     public Response<String> deleteBrand(Long id) {
-        brandRepository.deleteById(id);
-        return new Response<>("Delete Brand with Id "+id);
+        if (jwtFilter.isAdmin()) {
+            brandRepository.deleteById(id);
+            return new Response<>("Delete Brand with Id "+id);
+        } throw new CustomException("Unauthorized Access",HttpStatus.UNAUTHORIZED);
     }
 }
