@@ -19,22 +19,22 @@ public class BrandController {
     private BrandService brandService;
 
     @GetMapping
-    private List<BrandDTO> getAllBrands() {
+    public List<BrandDTO> getAllBrands() {
         return brandService.getAllBrands();
     }
 
     @PostMapping("/add")
-    private Response<String> addNewBrand(@ModelAttribute BrandDTO brand) {
+    public Response<String> addNewBrand(@ModelAttribute BrandDTO brand) {
         return brandService.addNewBrand(brand);
     }
 
     @PutMapping("/update")
-    private Response<String> updateBrand(@ModelAttribute BrandDTO brandDTO) {
+    public Response<String> updateBrand(@ModelAttribute BrandDTO brandDTO) {
         return brandService.updateBrand(brandDTO);
     }
 
     @DeleteMapping("/delete/{id}")
-    private Response<String> deleteBrand(@PathVariable("id") Long id) {
+    public Response<String> deleteBrand(@PathVariable("id") Long id) {
         return brandService.deleteBrand(id);
     }
 }

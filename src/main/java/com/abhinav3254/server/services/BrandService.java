@@ -44,15 +44,18 @@ public class BrandService {
         if (jwtFilter.isAdmin()) {
             if (brand.getLogo().isEmpty()) throw new CustomException("No Logo present", HttpStatus.BAD_REQUEST);
             if (brand.getName().isEmpty()) throw new CustomException("No Name present",HttpStatus.BAD_REQUEST);
-            Brand brand1 = new Brand();
-            try {
-                brand1.setLogo(brand.getLogo().getBytes());
-            } catch (IOException e) {
-                throw new CustomException("Error in parsing brand logo",HttpStatus.INTERNAL_SERVER_ERROR);
-            }
-            brand1.setName(brand.getName());
-            brandRepository.save(brand1);
-            return new Response<>("Added Brand with name "+brand.getName());
+            Optional<Brand> brandOptional = brandRepository.findByName(brand.getName());
+            if (brandOptional.isEmpty()) {
+                Brand brand1 = new Brand();
+                try {
+                    brand1.setLogo(brand.getLogo().getBytes());
+                } catch (IOException e) {
+                    throw new CustomException("Error in parsing brand logo",HttpStatus.INTERNAL_SERVER_ERROR);
+                }
+                brand1.setName(brand.getName());
+                brandRepository.save(brand1);
+                return new Response<>("Added Brand with name "+brand.getName());
+            } else throw new CustomException("Brand Already Exists",HttpStatus.CONFLICT);
         } throw new CustomException("Unauthorized Access",HttpStatus.UNAUTHORIZED);
     }
 
@@ -81,7 +84,9 @@ public class BrandService {
     }
 
     public Response<String> deleteBrand(Long id) {
-        brandRepository.deleteById(id);
-        return new Response<>("Delete Brand with Id "+id);
+        if (jwtFilter.isAdmin()) {
+            brandRepository.deleteById(id);
+            return new Response<>("Delete Brand with Id "+id);
+        } throw new CustomException("Unauthorized Access",HttpStatus.UNAUTHORIZED);
     }
 }
