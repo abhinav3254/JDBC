@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Nike",
+        "logo": "https://cdn.worldvectorlogo.com/logos/nike-11.svg"
+    },
+    {
+        "id": 2,
+        "name": "Adidas",
+        "logo": "https://cdn.worldvectorlogo.com/logos/adidas.svg"
+    },
+    {
+        "id": 3,
+        "name": "Zara",
+        "logo": "https://cdn.worldvectorlogo.com/logos/zara.svg"
+    },
+    {
+        "id": 4,
+        "name": "H&M",
+        "logo": "https://cdn.worldvectorlogo.com/logos/h-m-1.svg"
+    },
+    {
+        "id": 5,
+        "name": "Gucci",
+        "logo": "https://cdn.worldvectorlogo.com/logos/gucci-4.svg"
+    },
+    {
+        "id": 6,
+        "name": "Louis Vuitton",
+        "logo": "https://cdn.worldvectorlogo.com/logos/louis-vuitton-1.svg"
+    },
+    {
+        "id": 7,
+        "name": "Forever 21",
+        "logo": "https://cdn.worldvectorlogo.com/logos/forever-21-logo.svg"
+    },
+    {
+        "id": 8,
+        "name": "Puma",
+        "logo": "https://cdn.worldvectorlogo.com/logos/puma.svg"
+    },
+    {
+        "id": 9,
+        "name": "Calvin Klein",
+        "logo": "https://cdn.worldvectorlogo.com/logos/calvin-klein-1.svg"
+    },
+    {
+        "id": 10,
+        "name": "Tommy Hilfiger",
+        "logo": "https://cdn.worldvectorlogo.com/logos/tommy-hilfiger-2.svg"
+    },
+    {
+        "id": 11,
+        "name": "Levi's",
+        "logo": "https://cdn.worldvectorlogo.com/logos/levis-1.svg"
+    },
+    {
+        "id": 12,
+        "name": "Chanel",
+        "logo": "https://cdn.worldvectorlogo.com/logos/chanel-2.svg"
+    },
+    {
+        "id": 13,
+        "name": "Under Armour",
+        "logo": "https://cdn.worldvectorlogo.com/logos/under-armour-logo.svg"
+    },
+    {
+        "id": 14,
+        "name": "Balenciaga",
+        "logo": "https://cdn.worldvectorlogo.com/logos/balenciaga.svg"
+    },
+    {
+        "id": 15,
+        "name": "Versace",
+        "logo": "https://cdn.worldvectorlogo.com/logos/versace-3.svg"
+    },
+    {
+        "id": 16,
+        "name": "Ralph Lauren",
+        "logo": "https://cdn.worldvectorlogo.com/logos/ralphlauren.svg"
+    },
+    {
+        "id": 17,
+        "name": "Gap",
+        "logo": "https://cdn.worldvectorlogo.com/logos/gap.svg"
+    },
+    {
+        "id": 18,
+        "name": "Fendi",
+        "logo": "https://cdn.worldvectorlogo.com/logos/fendi.svg"
+    },
+    {
+        "id": 19,
+        "name": "Burberry",
+        "logo": "https://cdn.worldvectorlogo.com/logos/burberry.svg"
+    },
+    {
+        "id": 20,
+        "name": "Prada",
+        "logo": "https://cdn.worldvectorlogo.com/logos/prada.svg"
+    }
+]
