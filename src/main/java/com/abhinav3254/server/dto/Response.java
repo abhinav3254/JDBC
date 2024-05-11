@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor @NoArgsConstructor
 public class Response <T> {
-    T message;
+    T response;
 }
