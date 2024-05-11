@@ -1,0 +1,692 @@
+[
+    {
+        "id": 1,
+        "name": "Striped Cotton T-Shirt",
+        "brand": "XYZ Clothing Co.",
+        "image": [
+            "https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D"
+        ],
+        "category": "Topwear",
+        "subcategory": "T-Shirts",
+        "gender": "Female",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "Pink",
+            "Black",
+            "Gray"
+        ],
+        "material": "Cotton",
+        "pattern": "Striped",
+        "sleeve_length": "Short Sleeve",
+        "neck_style": "Round Neck",
+        "fit": "Regular Fit",
+        "occasion": [
+            "Casual",
+            "Everyday Wear"
+        ],
+        "price": 29.99,
+        "discount": 10,
+        "availability": true,
+        "description": "This comfortable striped cotton t-shirt is perfect for casual outings. Made from soft and breathable cotton fabric.",
+        "care_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Cool iron if needed. Do not dry clean.",
+        "country_of_origin": "Made in India",
+        "product_dimensions": {
+            "length": "26 inches",
+            "width": "18 inches",
+            "height": "0.3 inches"
+        },
+        "package_dimensions": {
+            "length": "9 inches",
+            "width": "7 inches",
+            "height": "2 inches",
+            "weight": "0.3 lb"
+        },
+        "shipping_weight": "0.3 lb",
+        "shipping_restrictions": "This item can only be shipped within the contiguous United States.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 3-5 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 1-2 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.5,
+                "review_text": "Love the fit and comfort of this t-shirt. Highly recommended!"
+            },
+            {
+                "rating": 5,
+                "review_text": "Great quality fabric and vibrant colors. Will definitely buy again!"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Floral Print Sundress",
+        "brand": "Summer Blossom",
+        "image": [
+            "https://images.unsplash.com/photo-1576828831022-ca41d3905fb7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmFzaGlvbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D"
+        ],
+        "category": "Western Wear",
+        "subcategory": "Dresses",
+        "gender": "Female",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "Yellow",
+            "Blue"
+        ],
+        "material": "Cotton",
+        "pattern": "Floral Print",
+        "sleeve_length": "Sleeveless",
+        "neck_style": "V-Neck",
+        "fit": "Loose Fit",
+        "occasion": [
+            "Casual",
+            "Beachwear"
+        ],
+        "price": 39.99,
+        "discount": 10,
+        "availability": true,
+        "description": "A breezy and vibrant sundress with a charming floral print, perfect for sunny days and beach outings.",
+        "care_instructions": "Hand wash cold, line dry. Do not bleach. Iron on low heat if needed. Do not dry clean.",
+        "country_of_origin": "Made in India",
+        "product_dimensions": {
+            "length": "34 inches",
+            "width": "28 inches",
+            "height": "0.5 inches"
+        },
+        "package_dimensions": {
+            "length": "12 inches",
+            "width": "10 inches",
+            "height": "2 inches",
+            "weight": "0.8 lb"
+        },
+        "shipping_weight": "0.8 lb",
+        "shipping_restrictions": "This item is eligible for international shipping.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 7-14 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 3-5 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.8,
+                "review_text": "Beautiful dress, fits perfectly and looks even better in person!"
+            },
+            {
+                "rating": 5,
+                "review_text": "Love the quality and design. Definitely worth the price!"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "High-Waisted Skinny Jeans",
+        "brand": "Fashionista Denim",
+        "image": [
+            "https://images.unsplash.com/photo-1604702770018-55669959b124?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbiUyMGdpcmx8ZW58MHx8MHx8fDA%3D"
+        ],
+        "category": "Bottomwear",
+        "subcategory": "Jeans",
+        "gender": "Female",
+        "size": [
+            "24",
+            "26",
+            "28",
+            "30",
+            "32"
+        ],
+        "color": [
+            "Black",
+            "Blue"
+        ],
+        "material": "Denim",
+        "fit": "Skinny Fit",
+        "occasion": [
+            "Casual",
+            "Party Wear"
+        ],
+        "price": 49.99,
+        "discount": 15,
+        "availability": true,
+        "description": "Classic high-waisted skinny jeans that hug your curves in all the right places. Perfect for casual outings or a night out with friends.",
+        "care_instructions": "Machine wash cold, tumble dry low. Do not bleach. Iron on low heat if needed.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "40 inches",
+            "width": "30 inches",
+            "height": "1 inch"
+        },
+        "package_dimensions": {
+            "length": "14 inches",
+            "width": "10 inches",
+            "height": "4 inches",
+            "weight": "1.2 lb"
+        },
+        "shipping_weight": "1.2 lb",
+        "shipping_restrictions": "This item can be shipped worldwide.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 5-10 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 2-4 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.5,
+                "review_text": "Love the fit and comfort of these jeans. Would highly recommend!"
+            },
+            {
+                "rating": 5,
+                "review_text": "These jeans are amazing! They fit perfectly and the quality is top-notch."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ruffled Off-Shoulder Top",
+        "brand": "Chic Trends",
+        "image": [
+            "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb24lMjBnaXJsfGVufDB8fDB8fHww"
+        ],
+        "category": "Topwear",
+        "subcategory": "Tops",
+        "gender": "Female",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "color": [
+            "White",
+            "Black",
+            "Pink"
+        ],
+        "material": "Polyester",
+        "pattern": "Solid",
+        "sleeve_length": "Short Sleeve",
+        "neck_style": "Off-Shoulder",
+        "fit": "Regular Fit",
+        "occasion": [
+            "Casual",
+            "Party Wear"
+        ],
+        "price": 34.99,
+        "discount": 20,
+        "availability": true,
+        "description": "A trendy and chic off-shoulder top with ruffle detailing, perfect for adding a touch of style to your casual or party outfits.",
+        "care_instructions": "Hand wash cold, do not bleach. Line dry. Iron on low heat if needed. Do not dry clean.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "24 inches",
+            "width": "20 inches",
+            "height": "0.5 inches"
+        },
+        "package_dimensions": {
+            "length": "10 inches",
+            "width": "8 inches",
+            "height": "2 inches",
+            "weight": "0.5 lb"
+        },
+        "shipping_weight": "0.5 lb",
+        "shipping_restrictions": "This item is eligible for international shipping.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 7-14 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 3-5 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.7,
+                "review_text": "Love the style and fit of this top. It's so comfortable and versatile!"
+            },
+            {
+                "rating": 4.5,
+                "review_text": "Received so many compliments when wearing this top. Great quality!"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Pleated Midi Skirt",
+        "brand": "Elegance Boutique",
+        "image": [
+            "https://images.unsplash.com/photo-1586078130702-d208859b6223?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZhc2hpb24lMjBnaXJsfGVufDB8fDB8fHww"
+        ],
+        "category": "Western Wear",
+        "subcategory": "Skirts",
+        "gender": "Female",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "Navy Blue",
+            "Beige",
+            "Burgundy"
+        ],
+        "material": "Polyester",
+        "pattern": "Pleated",
+        "length": "Midi",
+        "fit": "Regular Fit",
+        "occasion": [
+            "Casual",
+            "Office Wear"
+        ],
+        "price": 45.99,
+        "discount": 15,
+        "availability": true,
+        "description": "A chic and versatile midi skirt with pleated detailing, perfect for creating stylish casual or office looks.",
+        "care_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Iron on low heat if needed. Do not dry clean.",
+        "country_of_origin": "Made in India",
+        "product_dimensions": {
+            "length": "28 inches",
+            "width": "22 inches",
+            "height": "0.5 inches"
+        },
+        "package_dimensions": {
+            "length": "11 inches",
+            "width": "9 inches",
+            "height": "2 inches",
+            "weight": "0.6 lb"
+        },
+        "shipping_weight": "0.6 lb",
+        "shipping_restrictions": "This item is eligible for international shipping.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 7-14 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 3-5 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.6,
+                "review_text": "Absolutely love this skirt! It's so elegant and comfortable to wear."
+            },
+            {
+                "rating": 4.8,
+                "review_text": "The pleats on this skirt are gorgeous. Fits perfectly and looks classy!"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Embroidered Denim Jacket",
+        "brand": "Urban Denim",
+        "image": [
+            "https://images.unsplash.com/photo-1612553688496-ed9c69e2e7a8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZhc2hpb24lMjBnaXJsfGVufDB8fDB8fHww"
+        ],
+        "category": "Topwear",
+        "subcategory": "Jackets",
+        "gender": "Female",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "color": [
+            "Blue"
+        ],
+        "material": "Denim",
+        "pattern": "Embroidered",
+        "sleeve_length": "Long Sleeve",
+        "fit": "Regular Fit",
+        "occasion": [
+            "Casual",
+            "Streetwear"
+        ],
+        "price": 59.99,
+        "discount": 10,
+        "availability": true,
+        "description": "A stylish denim jacket with intricate embroidered details, perfect for adding a touch of flair to your casual outfits.",
+        "care_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Iron on low heat if needed. Do not dry clean.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "26 inches",
+            "width": "20 inches",
+            "height": "1 inch"
+        },
+        "package_dimensions": {
+            "length": "12 inches",
+            "width": "10 inches",
+            "height": "3 inches",
+            "weight": "1.2 lb"
+        },
+        "shipping_weight": "1.2 lb",
+        "shipping_restrictions": "This item is eligible for international shipping.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 7-14 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 3-5 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.9,
+                "review_text": "Absolutely love this jacket! The embroidery is stunning and the fit is perfect."
+            },
+            {
+                "rating": 4.7,
+                "review_text": "This denim jacket is a must-have! Great quality and unique design."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Lace Fit and Flare Dress",
+        "brand": "Elegant Chic",
+        "image": [
+            "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9kZWwlMjBnaXJsfGVufDB8fDB8fHww"
+        ],
+        "category": "Western Wear",
+        "subcategory": "Dresses",
+        "gender": "Female",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "White",
+            "Black",
+            "Red"
+        ],
+        "material": "Polyester",
+        "pattern": "Lace",
+        "sleeve_length": "Short Sleeve",
+        "neck_style": "Round Neck",
+        "fit": "Fit and Flare",
+        "occasion": [
+            "Party Wear",
+            "Formal Events"
+        ],
+        "price": 69.99,
+        "discount": 15,
+        "availability": true,
+        "description": "A stunning lace fit and flare dress that exudes elegance and sophistication, perfect for special occasions and formal events.",
+        "care_instructions": "Dry clean only.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "36 inches",
+            "width": "28 inches",
+            "height": "0.5 inches"
+        },
+        "package_dimensions": {
+            "length": "14 inches",
+            "width": "12 inches",
+            "height": "3 inches",
+            "weight": "1.5 lb"
+        },
+        "shipping_weight": "1.5 lb",
+        "shipping_restrictions": "This item is eligible for international shipping.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 7-14 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 3-5 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.8,
+                "review_text": "Absolutely stunning dress! Fits like a dream and the lace detail is beautiful."
+            },
+            {
+                "rating": 4.6,
+                "review_text": "Received so many compliments when wearing this dress. It's truly elegant and classy."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Ruffled Off-Shoulder Top",
+        "brand": "Chic Trends",
+        "image": [
+            "https://images.unsplash.com/photo-1617922001439-4a2e6562f328?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWwlMjBnaXJsfGVufDB8fDB8fHww"
+        ],
+        "category": "Topwear",
+        "subcategory": "Tops",
+        "gender": "Female",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "color": [
+            "White",
+            "Pink"
+        ],
+        "material": "Polyester",
+        "pattern": "Solid",
+        "sleeve_length": "Short Sleeve",
+        "neck_style": "Off-Shoulder",
+        "fit": "Regular Fit",
+        "occasion": [
+            "Casual",
+            "Party Wear"
+        ],
+        "price": 34.99,
+        "discount": 10,
+        "availability": true,
+        "description": "A stylish off-shoulder top with ruffle detailing, perfect for adding a feminine touch to your casual or party outfits.",
+        "care_instructions": "Machine wash cold, gentle cycle. Do not bleach. Tumble dry low. Iron on low heat if needed. Do not dry clean.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "24 inches",
+            "width": "16 inches",
+            "height": "0.3 inches"
+        },
+        "package_dimensions": {
+            "length": "10 inches",
+            "width": "8 inches",
+            "height": "2 inches",
+            "weight": "0.5 lb"
+        },
+        "shipping_weight": "0.5 lb",
+        "shipping_restrictions": "This item is eligible for international shipping.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 7-14 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 3-5 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.7,
+                "review_text": "Love this top! The ruffles add a cute touch and it's very comfortable to wear."
+            },
+            {
+                "rating": 4.9,
+                "review_text": "Received many compliments on this top. It's flattering and fits perfectly."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Slim Fit Formal Trousers",
+        "brand": "Corporate Attire",
+        "image": [
+            "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vZGVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D"
+        ],
+        "category": "Bottomwear",
+        "subcategory": "Formal Trousers",
+        "gender": "Female",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "Black",
+            "Navy Blue"
+        ],
+        "material": "Polyester",
+        "fit": "Slim Fit",
+        "occasion": [
+            "Office Wear",
+            "Business Meetings"
+        ],
+        "price": 49.99,
+        "discount": 15,
+        "availability": true,
+        "description": "Tailored slim fit formal trousers, perfect for a professional and sophisticated look in the workplace or business meetings.",
+        "care_instructions": "Dry clean only.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "40 inches",
+            "width": "30 inches",
+            "height": "1 inch"
+        },
+        "package_dimensions": {
+            "length": "14 inches",
+            "width": "10 inches",
+            "height": "4 inches",
+            "weight": "1.2 lb"
+        },
+        "shipping_weight": "1.2 lb",
+        "shipping_restrictions": "This item can be shipped worldwide.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 5-10 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 2-4 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.6,
+                "review_text": "These trousers are perfect for the office. They fit well and are very comfortable to wear."
+            },
+            {
+                "rating": 4.8,
+                "review_text": "Love the slim fit style of these trousers. Great quality and professional look."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Knit Sweater Dress",
+        "brand": "Cozy Couture",
+        "image": [
+            "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vZGVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D"
+        ],
+        "category": "Western Wear",
+        "subcategory": "Dresses",
+        "gender": "Female",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "Gray",
+            "Beige"
+        ],
+        "material": "Acrylic",
+        "pattern": "Solid",
+        "sleeve_length": "Long Sleeve",
+        "neck_style": "Crew Neck",
+        "fit": "Relaxed Fit",
+        "occasion": [
+            "Casual",
+            "Fall/Winter Wear"
+        ],
+        "price": 59.99,
+        "discount": 20,
+        "availability": true,
+        "description": "Stay warm and stylish in this cozy knit sweater dress, perfect for chilly days. Features a relaxed fit and long sleeves.",
+        "care_instructions": "Hand wash cold, lay flat to dry. Do not bleach. Iron on low heat if needed.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "36 inches",
+            "width": "24 inches",
+            "height": "0.5 inches"
+        },
+        "package_dimensions": {
+            "length": "14 inches",
+            "width": "12 inches",
+            "height": "4 inches",
+            "weight": "1.5 lb"
+        },
+        "shipping_weight": "1.5 lb",
+        "shipping_restrictions": "This item can be shipped worldwide.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 5-10 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 2-4 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.9,
+                "review_text": "Love this sweater dress! It's warm, comfortable, and looks great with boots."
+            },
+            {
+                "rating": 4.7,
+                "review_text": "Received many compliments when wearing this dress. It's a must-have for the winter season."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Faux Leather Moto Jacket",
+        "brand": "Rebel Chic",
+        "image": [
+            "https://images.unsplash.com/photo-1575939238474-c8ada13b2724?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vZGVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D"
+        ],
+        "category": "Western Wear",
+        "subcategory": "Jackets",
+        "gender": "Female",
+        "size": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "Black",
+            "Brown"
+        ],
+        "material": "Faux Leather",
+        "pattern": "Solid",
+        "sleeve_length": "Long Sleeve",
+        "neck_style": "Notched Lapel",
+        "fit": "Slim Fit",
+        "occasion": [
+            "Casual",
+            "Streetwear"
+        ],
+        "price": 79.99,
+        "discount": 15,
+        "availability": true,
+        "description": "Add an edgy vibe to your outfit with this faux leather moto jacket. Features a slim fit silhouette and classic moto details.",
+        "care_instructions": "Spot clean with a damp cloth. Do not bleach. Do not iron. Do not dry clean.",
+        "country_of_origin": "Made in USA",
+        "product_dimensions": {
+            "length": "24 inches",
+            "width": "18 inches",
+            "height": "2 inches"
+        },
+        "package_dimensions": {
+            "length": "14 inches",
+            "width": "12 inches",
+            "height": "6 inches",
+            "weight": "2 lb"
+        },
+        "shipping_weight": "2 lb",
+        "shipping_restrictions": "This item can be shipped worldwide.",
+        "shipping_info": {
+            "standard_delivery": "Estimated delivery within 5-10 business days",
+            "express_delivery": "Available for an additional charge. Estimated delivery within 2-4 business days."
+        },
+        "reviews": [
+            {
+                "rating": 4.8,
+                "review_text": "Absolutely love this jacket! It's stylish, comfortable, and versatile."
+            },
+            {
+                "rating": 4.6,
+                "review_text": "Great quality jacket with a perfect fit. Definitely recommend!"
+            }
+        ]
+    }
+]
