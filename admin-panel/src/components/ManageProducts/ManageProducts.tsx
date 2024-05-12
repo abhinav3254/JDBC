@@ -1,7 +1,6 @@
 import React from 'react'
 import { TabView, TabPanel } from 'primereact/tabview';
 import Nav from '../Dashboard/Nav';
-import AddBrand from './Brands/AddBrand';
 import Brand from './Brands/Brand';
 
 const ManageProducts = () => {
