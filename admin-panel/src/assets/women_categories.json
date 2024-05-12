@@ -1,0 +1,102 @@
+{
+    "categories": [
+        {
+            "name": "Topwear",
+            "subcategories": [
+                "Tops",
+                "T-Shirts"
+            ]
+        },
+        {
+            "name": "Indian & Fusion Wear",
+            "subcategories": [
+                "Kurtas & Suits",
+                "Kurtis, Tunics & Tops",
+                "Sarees",
+                "Ethnic Wear",
+                "Leggings, Salwars & Churidars",
+                "Skirts & Palazzos",
+                "Dress Materials",
+                "Lehenga Cholis",
+                "Dupattas & Shawls"
+            ]
+        },
+        {
+            "name": "Western Wear",
+            "subcategories": [
+                "Dresses",
+                "Tops",
+                "T-Shirts",
+                "Jeans",
+                "Trousers & Capris",
+                "Shorts & Skirts",
+                "Co-ords",
+                "Playsuits",
+                "Jumpsuits",
+                "Shrugs",
+                "Sweaters & Sweatshirts",
+                "Jackets & Coats",
+                "Blazers & Waistcoats",
+                "Plus Size",
+                "Maternity"
+            ]
+        },
+        {
+            "name": "Accessories",
+            "subcategories": [
+                "Belts",
+                "Scarves & More",
+                "Watches & Wearables",
+                "Sunglasses & Frames",
+                "Footwear"
+            ]
+        },
+        {
+            "name": "Sports & Active Wear",
+            "subcategories": [
+                "Clothing",
+                "Footwear",
+                "Sports Accessories",
+                "Sports Equipment"
+            ]
+        },
+        {
+            "name": "Lingerie & Sleepwear",
+            "subcategories": [
+                "Bra",
+                "Briefs",
+                "Shapewear",
+                "Sleepwear & Loungewear",
+                "Swimwear",
+                "Camisoles & Thermals"
+            ]
+        },
+        {
+            "name": "Beauty & Personal Care",
+            "subcategories": [
+                "Makeup",
+                "Skincare",
+                "Premium Beauty",
+                "Lipsticks",
+                "Fragrances"
+            ]
+        },
+        {
+            "name": "Gadgets",
+            "subcategories": [
+                "Smart Wearables",
+                "Fitness Gadgets",
+                "Headphones",
+                "Speakers"
+            ]
+        },
+        {
+            "name": "Jewellery",
+            "subcategories": [
+                "Fashion Jewellery",
+                "Fine Jewellery",
+                "Earrings"
+            ]
+        }
+    ]
+}

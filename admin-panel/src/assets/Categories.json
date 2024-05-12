@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "name": "Topwear",
+        "gender": "male"
+    },
+    {
+        "id": 2,
+        "name": "Bottomwear",
+        "gender": "male"
+    },
+    {
+        "id": 3,
+        "name": "Footwear",
+        "gender": "male"
+    },
+    {
+        "id": 4,
+        "name": "Accessories",
+        "gender": "male"
+    },
+    {
+        "id": 5,
+        "name": "Innerwear",
+        "gender": "male"
+    },
+    {
+        "id": 6,
+        "name": "Athleisure",
+        "gender": "male"
+    },
+    {
+        "id": 7,
+        "name": "Ethnicwear",
+        "gender": "male"
+    },
+    {
+        "id": 8,
+        "name": "Formalwear",
+        "gender": "male"
+    },
+    {
+        "id": 9,
+        "name": "Sleepwear",
+        "gender": "male"
+    },
+    {
+        "id": 10,
+        "name": "Partywear",
+        "gender": "male"
+    },
+    {
+        "id": 11,
+        "name": "Swimwear",
+        "gender": "male"
+    },
+    {
+        "id": 12,
+        "name": "Workoutwear",
+        "gender": "male"
+    },
+    {
+        "id": 13,
+        "name": "Topwear",
+        "gender": "female"
+    },
+    {
+        "id": 14,
+        "name": "Bottomwear",
+        "gender": "female"
+    },
+    {
+        "id": 15,
+        "name": "Footwear",
+        "gender": "female"
+    },
+    {
+        "id": 16,
+        "name": "Accessories",
+        "gender": "female"
+    },
+    {
+        "id": 17,
+        "name": "Innerwear",
+        "gender": "female"
+    },
+    {
+        "id": 18,
+        "name": "Athleisure",
+        "gender": "female"
+    },
+    {
+        "id": 19,
+        "name": "Ethnicwear",
+        "gender": "female"
+    },
+    {
+        "id": 20,
+        "name": "Formalwear",
+        "gender": "female"
+    },
+    {
+        "id": 21,
+        "name": "Sleepwear",
+        "gender": "female"
+    },
+    {
+        "id": 22,
+        "name": "Partywear",
+        "gender": "female"
+    },
+    {
+        "id": 23,
+        "name": "Swimwear",
+        "gender": "female"
+    },
+    {
+        "id": 24,
+        "name": "Workoutwear",
+        "gender": "female"
+    },
+    {
+        "id": 25,
+        "name": "Lounge",
+        "gender": "male"
+    },
+    {
+        "id": 26,
+        "name": "Casualwear",
+        "gender": "male"
+    },
+    {
+        "id": 27,
+        "name": "Formalwear",
+        "gender": "male"
+    },
+    {
+        "id": 28,
+        "name": "Loungewear",
+        "gender": "female"
+    },
+    {
+        "id": 29,
+        "name": "Casualwear",
+        "gender": "female"
+    },
+    {
+        "id": 30,
+        "name": "Formalwear",
+        "gender": "female"
+    },
+    {
+        "id": 31,
+        "name": "Winterwear",
+        "gender": "male"
+    },
+    {
+        "id": 32,
+        "name": "Winterwear",
+        "gender": "female"
+    },
+    {
+        "id": 33,
+        "name": "Activewear",
+        "gender": "male"
+    },
+    {
+        "id": 34,
+        "name": "Activewear",
+        "gender": "female"
+    },
+    {
+        "id": 35,
+        "name": "Maternity",
+        "gender": "female"
+    },
+    {
+        "id": 36,
+        "name": "Plus Size",
+        "gender": "male"
+    },
+    {
+        "id": 37,
+        "name": "Plus Size",
+        "gender": "female"
+    },
+    {
+        "id": 38,
+        "name": "Accessories",
+        "gender": "male"
+    },
+    {
+        "id": 39,
+        "name": "Accessories",
+        "gender": "female"
+    },
+    {
+        "id": 40,
+        "name": "Suits",
+        "gender": "male"
+    },
+    {
+        "id": 41,
+        "name": "Sarees",
+        "gender": "female"
+    },
+    {
+        "id": 42,
+        "name": "Kurtas",
+        "gender": "male"
+    },
+    {
+        "id": 43,
+        "name": "Kurtis",
+        "gender": "female"
+    },
+    {
+        "id": 44,
+        "name": "Dresses",
+        "gender": "female"
+    },
+    {
+        "id": 45,
+        "name": "Shirts",
+        "gender": "male"
+    },
+    {
+        "id": 46,
+        "name": "Tops",
+        "gender": "female"
+    },
+    {
+        "id": 47,
+        "name": "Trousers",
+        "gender": "male"
+    },
+    {
+        "id": 48,
+        "name": "Jeans",
+        "gender": "male"
+    },
+    {
+        "id": 49,
+        "name": "Skirts",
+        "gender": "female"
+    },
+    {
+        "id": 50,
+        "name": "Leggings",
+        "gender": "female"
+    }
+]

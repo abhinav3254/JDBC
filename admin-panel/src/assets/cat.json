@@ -1,0 +1,541 @@
+[
+    {
+        "gender": "men",
+        "categories": [
+            {
+                "id": 1,
+                "name": "Topwear",
+                "subcategories": [
+                    {
+                        "id": 1,
+                        "subCategoryName": "T-Shirts",
+                        "category": 1
+                    },
+                    {
+                        "id": 2,
+                        "subCategoryName": "Casual Shirts",
+                        "category": 1
+                    },
+                    {
+                        "id": 3,
+                        "subCategoryName": "Formal Shirts",
+                        "category": 1
+                    },
+                    {
+                        "id": 4,
+                        "subCategoryName": "Sweatshirts",
+                        "category": 1
+                    },
+                    {
+                        "id": 5,
+                        "subCategoryName": "Sweaters",
+                        "category": 1
+                    },
+                    {
+                        "id": 6,
+                        "subCategoryName": "Jackets",
+                        "category": 1
+                    },
+                    {
+                        "id": 7,
+                        "subCategoryName": "Blazers & Coats",
+                        "category": 1
+                    },
+                    {
+                        "id": 8,
+                        "subCategoryName": "Suits",
+                        "category": 1
+                    },
+                    {
+                        "id": 9,
+                        "subCategoryName": "Rain Jackets",
+                        "category": 1
+                    },
+                    {
+                        "id": 10,
+                        "subCategoryName": "Indian & Festive Wear",
+                        "category": 1
+                    },
+                    {
+                        "id": 11,
+                        "subCategoryName": "Kurtas & Kurta Sets",
+                        "category": 1
+                    },
+                    {
+                        "id": 12,
+                        "subCategoryName": "Sherwanis",
+                        "category": 1
+                    },
+                    {
+                        "id": 13,
+                        "subCategoryName": "Nehru Jackets",
+                        "category": 1
+                    },
+                    {
+                        "id": 14,
+                        "subCategoryName": "Dhotis",
+                        "category": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Bottomwear",
+                "subcategories": [
+                    {
+                        "id": 15,
+                        "subCategoryName": "Jeans",
+                        "category": 2
+                    },
+                    {
+                        "id": 16,
+                        "subCategoryName": "Casual Trousers",
+                        "category": 2
+                    },
+                    {
+                        "id": 17,
+                        "subCategoryName": "Formal Trousers",
+                        "category": 2
+                    },
+                    {
+                        "id": 18,
+                        "subCategoryName": "Shorts",
+                        "category": 2
+                    },
+                    {
+                        "id": 19,
+                        "subCategoryName": "Track Pants & Joggers",
+                        "category": 2
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Innerwear & Sleepwear",
+                "subcategories": [
+                    {
+                        "id": 20,
+                        "subCategoryName": "Briefs & Trunks",
+                        "category": 3
+                    },
+                    {
+                        "id": 21,
+                        "subCategoryName": "Boxers",
+                        "category": 3
+                    },
+                    {
+                        "id": 22,
+                        "subCategoryName": "Vests",
+                        "category": 3
+                    },
+                    {
+                        "id": 23,
+                        "subCategoryName": "Sleepwear & Loungewear",
+                        "category": 3
+                    },
+                    {
+                        "id": 24,
+                        "subCategoryName": "Thermals",
+                        "category": 3
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Footwear",
+                "subcategories": [
+                    {
+                        "id": 25,
+                        "subCategoryName": "Casual Shoes",
+                        "category": 4
+                    },
+                    {
+                        "id": 26,
+                        "subCategoryName": "Sports Shoes",
+                        "category": 4
+                    },
+                    {
+                        "id": 27,
+                        "subCategoryName": "Formal Shoes",
+                        "category": 4
+                    },
+                    {
+                        "id": 28,
+                        "subCategoryName": "Sneakers",
+                        "category": 4
+                    },
+                    {
+                        "id": 29,
+                        "subCategoryName": "Sandals & Floaters",
+                        "category": 4
+                    },
+                    {
+                        "id": 30,
+                        "subCategoryName": "Flip Flops",
+                        "category": 4
+                    },
+                    {
+                        "id": 31,
+                        "subCategoryName": "Socks",
+                        "category": 4
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Personal Care & Grooming",
+                "subcategories": [
+                    {
+                        "id": 32,
+                        "subCategoryName": "Sunglasses & Frames",
+                        "category": 5
+                    },
+                    {
+                        "id": 33,
+                        "subCategoryName": "Watches",
+                        "category": 5
+                    },
+                    {
+                        "id": 34,
+                        "subCategoryName": "Sports & Active Wear",
+                        "category": 5
+                    },
+                    {
+                        "id": 35,
+                        "subCategoryName": "Gadgets",
+                        "category": 5
+                    },
+                    {
+                        "id": 36,
+                        "subCategoryName": "Fashion Accessories",
+                        "category": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "gender": "women",
+        "categories": [
+            {
+                "id": 6,
+                "name": "Topwear",
+                "subcategories": [
+                    {
+                        "id": 37,
+                        "subCategoryName": "Tops",
+                        "category": 6
+                    },
+                    {
+                        "id": 38,
+                        "subCategoryName": "T-Shirts",
+                        "category": 6
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Indian & Fusion Wear",
+                "subcategories": [
+                    {
+                        "id": 39,
+                        "subCategoryName": "Kurtas & Suits",
+                        "category": 7
+                    },
+                    {
+                        "id": 40,
+                        "subCategoryName": "Kurtis, Tunics & Tops",
+                        "category": 7
+                    },
+                    {
+                        "id": 41,
+                        "subCategoryName": "Sarees",
+                        "category": 7
+                    },
+                    {
+                        "id": 42,
+                        "subCategoryName": "Ethnic Wear",
+                        "category": 7
+                    },
+                    {
+                        "id": 43,
+                        "subCategoryName": "Leggings, Salwars & Churidars",
+                        "category": 7
+                    },
+                    {
+                        "id": 44,
+                        "subCategoryName": "Skirts & Palazzos",
+                        "category": 7
+                    },
+                    {
+                        "id": 45,
+                        "subCategoryName": "Dress Materials",
+                        "category": 7
+                    },
+                    {
+                        "id": 46,
+                        "subCategoryName": "Lehenga Cholis",
+                        "category": 7
+                    },
+                    {
+                        "id": 47,
+                        "subCategoryName": "Dupattas & Shawls",
+                        "category": 7
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Western Wear",
+                "subcategories": [
+                    {
+                        "id": 48,
+                        "subCategoryName": "Dresses",
+                        "category": 8
+                    },
+                    {
+                        "id": 49,
+                        "subCategoryName": "Tops",
+                        "category": 8
+                    },
+                    {
+                        "id": 50,
+                        "subCategoryName": "T-Shirts",
+                        "category": 8
+                    },
+                    {
+                        "id": 51,
+                        "subCategoryName": "Jeans",
+                        "category": 8
+                    },
+                    {
+                        "id": 52,
+                        "subCategoryName": "Trousers & Capris",
+                        "category": 8
+                    },
+                    {
+                        "id": 53,
+                        "subCategoryName": "Shorts & Skirts",
+                        "category": 8
+                    },
+                    {
+                        "id": 54,
+                        "subCategoryName": "Co-ords",
+                        "category": 8
+                    },
+                    {
+                        "id": 55,
+                        "subCategoryName": "Playsuits",
+                        "category": 8
+                    },
+                    {
+                        "id": 56,
+                        "subCategoryName": "Jumpsuits",
+                        "category": 8
+                    },
+                    {
+                        "id": 57,
+                        "subCategoryName": "Shrugs",
+                        "category": 8
+                    },
+                    {
+                        "id": 58,
+                        "subCategoryName": "Sweaters & Sweatshirts",
+                        "category": 8
+                    },
+                    {
+                        "id": 59,
+                        "subCategoryName": "Jackets & Coats",
+                        "category": 8
+                    },
+                    {
+                        "id": 60,
+                        "subCategoryName": "Blazers & Waistcoats",
+                        "category": 8
+                    },
+                    {
+                        "id": 61,
+                        "subCategoryName": "Plus Size",
+                        "category": 8
+                    },
+                    {
+                        "id": 62,
+                        "subCategoryName": "Maternity",
+                        "category": 8
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Accessories",
+                "subcategories": [
+                    {
+                        "id": 63,
+                        "subCategoryName": "Belts",
+                        "category": 9
+                    },
+                    {
+                        "id": 64,
+                        "subCategoryName": "Scarves & More",
+                        "category": 9
+                    },
+                    {
+                        "id": 65,
+                        "subCategoryName": "Watches & Wearables",
+                        "category": 9
+                    },
+                    {
+                        "id": 66,
+                        "subCategoryName": "Sunglasses & Frames",
+                        "category": 9
+                    },
+                    {
+                        "id": 67,
+                        "subCategoryName": "Footwear",
+                        "category": 9
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Sports & Active Wear",
+                "subcategories": [
+                    {
+                        "id": 68,
+                        "subCategoryName": "Clothing",
+                        "category": 10
+                    },
+                    {
+                        "id": 69,
+                        "subCategoryName": "Footwear",
+                        "category": 10
+                    },
+                    {
+                        "id": 70,
+                        "subCategoryName": "Sports Accessories",
+                        "category": 10
+                    },
+                    {
+                        "id": 71,
+                        "subCategoryName": "Sports Equipment",
+                        "category": 10
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "name": "Lingerie & Sleepwear",
+                "subcategories": [
+                    {
+                        "id": 72,
+                        "subCategoryName": "Bra",
+                        "category": 11
+                    },
+                    {
+                        "id": 73,
+                        "subCategoryName": "Briefs",
+                        "category": 11
+                    },
+                    {
+                        "id": 74,
+                        "subCategoryName": "Shapewear",
+                        "category": 11
+                    },
+                    {
+                        "id": 75,
+                        "subCategoryName": "Sleepwear & Loungewear",
+                        "category": 11
+                    },
+                    {
+                        "id": 76,
+                        "subCategoryName": "Swimwear",
+                        "category": 11
+                    },
+                    {
+                        "id": 77,
+                        "subCategoryName": "Camisoles & Thermals",
+                        "category": 11
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Beauty & Personal Care",
+                "subcategories": [
+                    {
+                        "id": 78,
+                        "subCategoryName": "Makeup",
+                        "category": 12
+                    },
+                    {
+                        "id": 79,
+                        "subCategoryName": "Skincare",
+                        "category": 12
+                    },
+                    {
+                        "id": 80,
+                        "subCategoryName": "Premium Beauty",
+                        "category": 12
+                    },
+                    {
+                        "id": 81,
+                        "subCategoryName": "Lipsticks",
+                        "category": 12
+                    },
+                    {
+                        "id": 82,
+                        "subCategoryName": "Fragrances",
+                        "category": 12
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "name": "Gadgets",
+                "subcategories": [
+                    {
+                        "id": 83,
+                        "subCategoryName": "Smart Wearables",
+                        "category": 13
+                    },
+                    {
+                        "id": 84,
+                        "subCategoryName": "Fitness Gadgets",
+                        "category": 13
+                    },
+                    {
+                        "id": 85,
+                        "subCategoryName": "Headphones",
+                        "category": 13
+                    },
+                    {
+                        "id": 86,
+                        "subCategoryName": "Speakers",
+                        "category": 13
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "name": "Jewellery",
+                "subcategories": [
+                    {
+                        "id": 87,
+                        "subCategoryName": "Fashion Jewellery",
+                        "category": 14
+                    },
+                    {
+                        "id": 88,
+                        "subCategoryName": "Fine Jewellery",
+                        "category": 14
+                    },
+                    {
+                        "id": 89,
+                        "subCategoryName": "Earrings",
+                        "category": 14
+                    }
+                ]
+            }
+        ]
+    }
+]
