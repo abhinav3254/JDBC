@@ -1,0 +1,46 @@
+.AccordionTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .CategoryCardContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    
+        .CategoryCard {
+            width: 30%;
+            border: 1px solid gainsboro;
+            padding: 10px;
+    
+            .CategoryCardHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 2px;
+            }
+            .CategoryCardHeaderTable {
+                padding: 10px;
+
+                .CategoryCardHeaderTableElements {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 5px;
+                    p {
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    .CategoryCardHeaderTableElementsOptions {
+                        display: flex;
+                        i {
+                            margin: 0 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

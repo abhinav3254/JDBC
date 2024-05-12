@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Shirts",
+        "categoryId": 1,
+        "gender": "male"
+    },
+    {
+        "id": 2,
+        "name": "T-Shirts",
+        "categoryId": 1,
+        "gender": "male"
+    },
+    {
+        "id": 3,
+        "name": "Pants",
+        "categoryId": 2,
+        "gender": "male"
+    },
+    {
+        "id": 4,
+        "name": "Jeans",
+        "categoryId": 2,
+        "gender": "male"
+    },
+    {
+        "id": 5,
+        "name": "Shorts",
+        "categoryId": 2,
+        "gender": "male"
+    },
+    {
+        "id": 6,
+        "name": "Sneakers",
+        "categoryId": 3,
+        "gender": "male"
+    },
+    {
+        "id": 7,
+        "name": "Boots",
+        "categoryId": 3,
+        "gender": "male"
+    },
+    {
+        "id": 8,
+        "name": "Formal Shoes",
+        "categoryId": 3,
+        "gender": "male"
+    },
+    {
+        "id": 9,
+        "name": "Belts",
+        "categoryId": 4,
+        "gender": "male"
+    },
+    {
+        "id": 10,
+        "name": "Ties",
+        "categoryId": 4,
+        "gender": "male"
+    },
+    {
+        "id": 11,
+        "name": "Boxers",
+        "categoryId": 5,
+        "gender": "male"
+    },
+    {
+        "id": 12,
+        "name": "Briefs",
+        "categoryId": 5,
+        "gender": "male"
+    },
+    {
+        "id": 13,
+        "name": "Sports Bras",
+        "categoryId": 5,
+        "gender": "female"
+    },
+    {
+        "id": 14,
+        "name": "Leggings",
+        "categoryId": 5,
+        "gender": "female"
+    },
+    {
+        "id": 15,
+        "name": "Hats",
+        "categoryId": 4,
+        "gender": "male"
+    },
+    {
+        "id": 16,
+        "name": "Scarves",
+        "categoryId": 4,
+        "gender": "female"
+    },
+    {
+        "id": 17,
+        "name": "Gloves",
+        "categoryId": 4,
+        "gender": "male"
+    },
+    {
+        "id": 18,
+        "name": "Dresses",
+        "categoryId": 13,
+        "gender": "female"
+    },
+    {
+        "id": 19,
+        "name": "Blouses",
+        "categoryId": 13,
+        "gender": "female"
+    },
+    {
+        "id": 20,
+        "name": "Skirts",
+        "categoryId": 14,
+        "gender": "female"
+    },
+    {
+        "id": 21,
+        "name": "Pants",
+        "categoryId": 14,
+        "gender": "female"
+    },
+    {
+        "id": 22,
+        "name": "Heels",
+        "categoryId": 15,
+        "gender": "female"
+    },
+    {
+        "id": 23,
+        "name": "Sneakers",
+        "categoryId": 15,
+        "gender": "female"
+    },
+    {
+        "id": 24,
+        "name": "Boots",
+        "categoryId": 15,
+        "gender": "female"
+    },
+    {
+        "id": 25,
+        "name": "Sandals",
+        "categoryId": 15,
+        "gender": "female"
+    },
+    {
+        "id": 26,
+        "name": "Socks",
+        "categoryId": 16,
+        "gender": "male"
+    },
+    {
+        "id": 27,
+        "name": "Tights",
+        "categoryId": 16,
+        "gender": "female"
+    },
+    {
+        "id": 28,
+        "name": "Bras",
+        "categoryId": 17,
+        "gender": "female"
+    },
+    {
+        "id": 29,
+        "name": "Underwear",
+        "categoryId": 17,
+        "gender": "female"
+    },
+    {
+        "id": 30,
+        "name": "Yoga Pants",
+        "categoryId": 18,
+        "gender": "female"
+    },
+    {
+        "id": 31,
+        "name": "Tank Tops",
+        "categoryId": 18,
+        "gender": "female"
+    },
+    {
+        "id": 32,
+        "name": "Sweaters",
+        "categoryId": 19,
+        "gender": "female"
+    },
+    {
+        "id": 33,
+        "name": "Cardigans",
+        "categoryId": 19,
+        "gender": "female"
+    },
+    {
+        "id": 34,
+        "name": "Trousers",
+        "categoryId": 20,
+        "gender": "female"
+    },
+    {
+        "id": 35,
+        "name": "Pants",
+        "categoryId": 20,
+        "gender": "female"
+    },
+    {
+        "id": 36,
+        "name": "Flats",
+        "categoryId": 21,
+        "gender": "female"
+    },
+    {
+        "id": 37,
+        "name": "Sneakers",
+        "categoryId": 21,
+        "gender": "female"
+    },
+    {
+        "id": 38,
+        "name": "Boots",
+        "categoryId": 21,
+        "gender": "female"
+    },
+    {
+        "id": 39,
+        "name": "Sandals",
+        "categoryId": 21,
+        "gender": "female"
+    },
+    {
+        "id": 40,
+        "name": "Suits",
+        "categoryId": 22,
+        "gender": "male"
+    },
+    {
+        "id": 41,
+        "name": "Jackets",
+        "categoryId": 22,
+        "gender": "male"
+    },
+    {
+        "id": 42,
+        "name": "Kurtas",
+        "categoryId": 23,
+        "gender": "male"
+    },
+    {
+        "id": 43,
+        "name": "Kurtis",
+        "categoryId": 24,
+        "gender": "female"
+    },
+    {
+        "id": 44,
+        "name": "T-Shirts",
+        "categoryId": 24,
+        "gender": "female"
+    },
+    {
+        "id": 45,
+        "name": "Blouses",
+        "categoryId": 24,
+        "gender": "female"
+    },
+    {
+        "id": 46,
+        "name": "Denim Jackets",
+        "categoryId": 25,
+        "gender": "male"
+    },
+    {
+        "id": 47,
+        "name": "Leather Jackets",
+        "categoryId": 25,
+        "gender": "male"
+    },
+    {
+        "id": 48,
+        "name": "Winter Coats",
+        "categoryId": 25,
+        "gender": "male"
+    },
+    {
+        "id": 49,
+        "name": "Winter Jackets",
+        "categoryId": 25,
+        "gender": "male"
+    },
+    {
+        "id": 50,
+        "name": "Raincoats",
+        "categoryId": 25,
+        "gender": "male"
+    }
+]
