@@ -14,27 +14,27 @@ public class Cloth {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
-    @Column(name = "name", length = 255)
+    @Column(nullable = false, length = 255)
     private String name;
 
-    @Column(name = "status")
+    @Column(nullable = false)
     private boolean status;
 
-    @Column(name = "price", precision = 10, scale = 2, nullable = false)
+    @Column(nullable = false, precision = 10, scale = 2)
     private BigDecimal price;
 
-    @Column(name = "discount", precision = 10, scale = 2, nullable = false)
+    @Column(nullable = false, precision = 10, scale = 2)
     private BigDecimal discount;
 
-    @Column(name = "gender", length = 6, nullable = false)
+    @Column(nullable = false, length = 55)
     private String gender;
 
-    @Column(name = "material", length = 255)
+    @Column(length = 255)
     private String material;
 
-    @Column(name = "pattern", length = 255)
+    @Column(length = 255)
     private String pattern;
 
     @Column(name = "sleeve_length", length = 255)
@@ -43,10 +43,10 @@ public class Cloth {
     @Column(name = "neck_style", length = 255)
     private String neckStyle;
 
-    @Column(name = "fit", length = 255)
+    @Column(length = 255)
     private String fit;
 
-    @Column(name = "description", columnDefinition = "TEXT")
+    @Column(length = 255)
     private String description;
 
     @Column(name = "care_instructions", columnDefinition = "TEXT")
@@ -54,5 +54,29 @@ public class Cloth {
 
     @Column(name = "country_of_origin", length = 255)
     private String countryOfOrigin;
+
+    @OneToOne
+    @JoinColumn(name = "brand_id")
+    private Brand brandId;
+
+    @OneToOne
+    @JoinColumn(name = "category_id")
+    private Category categoryId;
+
+    @OneToOne
+    @JoinColumn(name = "sub_category_id")
+    private SubCategory subCategoryId;
+
+    @OneToOne
+    @JoinColumn(name = "occasion_id")
+    private Occasion occasionId;
+
+    @OneToOne
+    @JoinColumn(name = "product_dimensions_id")
+    private ProductDimensions productDimensionsId;
+
+    @OneToOne
+    @JoinColumn(name = "package_dimensions_id")
+    private PackageDimensions packageDimensionsId;
 
 }

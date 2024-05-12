@@ -1,0 +1,39 @@
+.Auth {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Login {
+        display: flex;
+        width: 50%;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+            width: 50%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .Creds {
+            width: 50%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 40px;
+            }
+    
+            .Email {
+                margin: 2px 0;
+            }
+    
+            .LoginBtn {
+                margin: 3px 0;
+            }
+        }
+    }
+}
