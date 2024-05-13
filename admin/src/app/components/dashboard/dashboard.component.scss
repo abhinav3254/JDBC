@@ -1,0 +1,174 @@
+.Dashboard {
+    padding: 10px;
+    width: 100%;
+
+    .Header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .HeaderLeft {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        .HeaderRight {
+            display: flex;
+            flex-direction: row;
+
+            div {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .DashboardBody {
+
+        .StatCardContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 10px 0;
+            padding: 0 5px;
+            .StatCard {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+        
+        .SideBySide {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .summary {
+                width: 70%;
+                padding: 10px;
+            }
+
+            .SellingProducts {
+                width: 30%;
+                border: 1px solid gainsboro;
+                height: 100%;
+                padding: 10px;
+                border-radius: 10px;
+
+                .HeadLine {
+                    font-size: 20px;
+                    padding: 0;
+                    margin: 5px 0;
+                }
+
+                .SellingProductsScroll {
+                    height: 360px;
+                    overflow: scroll;
+                    
+                    .SellingProductsDiv {
+                        display: flex;
+                        align-items: center;
+                        padding: 5px;
+                        justify-content: start;
+    
+                        .SellingProductsDivImage {
+                            width: 60px;
+                            height: 40px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+    
+                        .SellingProductsDivDetails {
+                            display: flex;
+                            flex-direction: column;
+                            margin-left: 10px;
+                            width: 100%;
+                            p {
+                                margin: 0;
+                                padding: 0;
+                            }
+
+                            .SellingProductsDivDetailsName {
+                                font-size: 10px;
+                            }
+                        }
+    
+                        .SellingProductsDivDetailsSales {
+                            border: 1px solid gainsboro;
+                            width: 140px;
+                            padding: 5px;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+    .OrdersDiv {
+        display: flex;
+        .RecentOrders {
+            margin-right: 10px;
+            width: 80%;
+        }
+
+        .WeeklyTopCustomers {
+            border: 1px solid gainsboro;
+            padding: 10px;
+            width: 40%;
+
+            .CustomerContainer {
+                overflow: scroll;
+                height: 400px;
+                padding: 10px;
+
+                .Customer {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    border: 1px solid gainsboro;
+                    padding: 10px;
+                    position: relative;
+                    margin: 5px;
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50px;
+                        object-fit: cover;
+                        margin-right: 10px;
+                    }
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        width: fit-content;
+                        p {
+                            margin: 0;
+                        }
+                    }
+
+                    .ViewBtn {
+                        position: absolute;
+                        right: 0;
+                        margin: 0 20px;
+                        border: 1px solid rgb(99, 99, 231);
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

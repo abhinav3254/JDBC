@@ -1,0 +1,21 @@
+<div class="StatsCard">
+    <p>{{stat?.name}}</p>
+    <p class="StatsCardNumber">{{stat?.amount}}</p>
+    <ng-container *ngIf="stat?.change; else elseBlock">
+        <div class="Stats">
+            <div class="StatsType">
+                <span class="pi pi-caret-up"></span>
+                <p>{{stat?.data}}</p>
+            </div>
+            <p>({{stat?.change}})</p>
+        </div>
+    </ng-container>
+    <ng-template #elseBlock>
+        <div class="Stats">
+            <div class="StatsTypeNegative">
+                <span class="pi pi-caret-down"></span>
+                <p>{{stat?.data}}</p>
+            </div>
+        </div>
+    </ng-template>
+</div>

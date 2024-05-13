@@ -1,0 +1,96 @@
+.SideNav {
+    background-color: rgba(21,22,27,255);
+    height: 100vh;
+    padding: 5px 10px;
+    width: 100%;
+    position: fixed;
+    width: 13%;
+
+    .SideNavHeader {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 30px;
+            height: 30px;
+            margin: 2px;
+        }
+
+        p {
+            color: white;
+            font-size: 30px;
+            margin: 2px;
+        }
+    }
+
+    .SideNavElement {
+        margin: 10px 0;
+        .LabelName {
+            font-size: 16px;
+            color: gray;
+        }
+        
+        .SideItems {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 2px;
+            margin: 10px 0;
+            transition: all 0.15ms;
+            padding: 5px 10px;
+        
+            p {
+                margin: 0 2px;
+                color: white;
+            }
+            span {
+                margin: 0 2px;
+                color: white;
+            }
+
+            &:hover {
+                cursor: pointer;
+                background-color: white;
+                p {
+                    color: black;
+                }
+                span {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .Logout {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        padding: 5px 10px;
+        margin: 0 0 10px 0;
+
+        span {
+            color: white;
+            margin: 0 2px;
+        }
+        p {
+            color: white;
+            margin: 0 2px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: white;
+            width: 160px;
+            span {
+                color: black;
+            }
+            p {
+                color: black;
+            }
+        }
+    }
+
+    
+}

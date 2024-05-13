@@ -1,0 +1,78 @@
+.RecentOrders {
+    border: 1px solid gainsboro;
+    padding: 10px;
+
+    .HeadLine {
+        font-size: 20px;
+    }
+
+    table {
+        border-spacing: 5px;
+        overflow-y:scroll;
+        height:400px;
+        display:block;
+        width:100%;
+        table-layout: fixed;
+        overflow-wrap: break-word;
+
+            tr {
+                th {
+                    font-style: italic;
+                    font-weight: 400;
+                }
+                td {
+                    font-size: 12px;
+                    padding: 5px 10px;
+                }
+
+                .productNametd {
+                    .productName {
+                        font-size: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                
+                        p {
+                            width: 150px;
+                        }
+                    
+                        .productImage {
+                            width: 50px;
+                            height: 50px;
+                            object-fit: cover;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+
+                .Status {
+                    .Pending {
+                        background-color: rgb(149, 5, 5);
+                        color: white;
+                        font-weight: 100;
+                        padding: 2px 5px;
+                        border-radius: 10px;
+                        text-align: center;
+                    }
+
+                    .Completed {
+                        background-color: green;
+                        color: white;
+                        font-weight: 100;
+                        padding: 2px 5px;
+                        border-radius: 10px;
+                        text-align: center;
+                    }
+
+                    .Shipped {
+                        background-color: rgb(114, 114, 4);
+                        color: white;
+                        font-weight: 100;
+                        padding: 2px 5px;
+                        border-radius: 10px;
+                        text-align: center;
+                    }
+                }
+            }
+    }
+}

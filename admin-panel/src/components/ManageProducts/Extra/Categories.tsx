@@ -30,23 +30,29 @@ const Categories = () => {
 
     const data: CombineCategory[] = CategroryData;
     const [showEdit, setShowEdit] = useState(false);
-    // const [genderData, setGenderData] = useState<CombineCategory | null>(null);
+    const [genderData, setGenderData] = useState<CombineCategory | null>(null);
     const [selectedGender, setSelectedGender] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState('');
+    const [selectedSubCategory, setSelectedSubCategory] = useState('');
 
     const openDialogWithCategoryData = (genderData: CombineCategory) => {
-        // setGenderData(genderData);
+        setGenderData(genderData);
         setShowEdit(true);
     };
 
     // Function to close the dialog
     const onHideDialog = () => {
         setShowEdit(false);
-        // setGenderData(null);
+        setGenderData(null);
     };
 
     return (
         <div>
-            <Accordion multiple activeIndex={0}>
+            <div className='ActionButton'>
+                <Button label="New" severity="success" icon="pi pi-plus" />
+                <Button label="Export" icon="pi pi-upload" severity="help" />
+            </div>
+            <Accordion multiple>
                 {data.map((genderBased) => (
                     <AccordionTab header={genderBased.gender} key={genderBased.gender}>
                         <div className='AccordionTab'>
@@ -72,55 +78,43 @@ const Categories = () => {
                                     </div>
                                 ))}
                             </div>
-                            <Dialog header="Category" visible={showEdit} style={{ width: '50vw' }} onHide={() => setShowEdit(false)}>
-                                <p className="m-0">
-                                    <div>
+                            <Dialog header="Category" visible={showEdit} style={{ width: '50vw' }} onHide={onHideDialog}>
+                                <div>
+                                    <Dropdown
+                                        options={data.map(genderBased => ({ label: genderBased.gender, value: genderBased.gender }))}
+                                        value={selectedGender}
+                                        onChange={(e) => setSelectedGender(e.value)}
+                                        optionLabel="label"
+                                        placeholder="Select a Gender"
+                                        className="w-full md:w-14rem"
+                                    />
+                                    {selectedGender && (
                                         <Dropdown
-                                            options={data.map(genderBased => ({ label: genderBased.gender, value: genderBased.gender }))}
-                                            value={selectedGender}
-                                            onChange={(e) => { setSelectedGender(e.value) }}
+                                            options={data.find(genderBased => genderBased.gender === selectedGender)?.categories.map(category => ({ label: category.name, value: category.name }))}
+                                            value={selectedCategory}
+                                            onChange={(e) => setSelectedCategory(e.value)}
                                             optionLabel="label"
-                                            placeholder="Select a Gender"
+                                            placeholder="Select a Category"
                                             className="w-full md:w-14rem"
                                         />
-                                        {selectedGender}
-                                        <div className="flex align-items-center">
-                                            {data.map((gender) => (
-                                                <div>
-                                                    {/* here fixed the gender */}
-                                                    {gender.gender == selectedGender && (
-                                                        <div key={gender.gender}>
-                                                            <RadioButton inputId="ingredient1" name={gender.gender} value={gender.gender} />
-                                                            <label htmlFor="ingredient1" className="ml-2">{gender.gender}</label>
-                                                            <div>
-                                                                {gender.categories.map((category) => (
-                                                                    <div>
-                                                                        <RadioButton inputId="ingredient1" name={category.name} value={category.name} />
-                                                                        <label htmlFor="ingredient1" className="ml-2">{category.name}</label>
-                                                                        <div>
-                                                                            {category.subcategories.map((subCategory) => (
-                                                                                <div>
-                                                                                    <RadioButton inputId="ingredient1" name={subCategory.subCategoryName} value={subCategory.subCategoryName} />
-                                                                                    <label htmlFor="ingredient1" className="ml-2">{subCategory.subCategoryName}</label>
-                                                                                </div>
-                                                                            ))}
-                                                                        </div>
-                                                                    </div>
-                                                                ))}
-                                                            </div>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                            ))}
-                                            <Button label="Submit" icon="pi pi-check" />
-                                        </div>
-                                    </div>
-                                </p>
+                                    )}
+                                    {selectedCategory && (
+                                        <Dropdown
+                                            options={data.find(genderBased => genderBased.gender === selectedGender)?.categories.find(category => category.name === selectedCategory)?.subcategories.map(subCategory => ({ label: subCategory.subCategoryName, value: subCategory.subCategoryName }))}
+                                            value={selectedSubCategory}
+                                            onChange={(e) => setSelectedSubCategory(e.value)}
+                                            optionLabel="label"
+                                            placeholder="Select a Subcategory"
+                                            className="w-full md:w-14rem"
+                                        />
+                                    )}
+                                    <Button label="Submit" icon="pi pi-check" />
+                                </div>
                             </Dialog>
+
                         </div>
                     </AccordionTab>
                 ))}
-
             </Accordion>
         </div>
     )
