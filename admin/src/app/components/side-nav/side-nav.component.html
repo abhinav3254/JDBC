@@ -1,0 +1,17 @@
+<div class="SideNav">
+    <div class="SideNavHeader">
+        <img src="../../../assets/bag.svg" alt="">
+        <p>subcom</p>
+    </div>
+    <div class="SideNavElement" *ngFor="let sideOptions of sideNavItems">
+        <p class="LabelName">{{sideOptions.name}}</p>
+        <div (click)="navigateFunction(item)" class="SideItems" *ngFor="let item of sideOptions.options">
+            <span class={{item.icon}}></span>
+            <p>{{item.name}}</p>
+        </div>
+    </div>
+    <div class="Logout">
+        <span class="pi pi-sign-out"></span>
+        <p>Logout</p>
+    </div>
+</div>

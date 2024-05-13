@@ -1,0 +1,63 @@
+.StatsCard {
+    width: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #A3D8FF;
+    color: black;
+
+    p {
+        margin: 5px;
+        padding: 0;
+    }
+
+    .StatsCardNumber {
+        font-size: 30px;
+    }
+
+    .Stats {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        .StatsType {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 2px;
+            border-radius: 10px;
+            background-color: white;
+
+            p {
+                margin: 0;
+                padding: 0;
+                color: green;
+            }
+
+            span {
+                color: green;
+            }
+        }
+
+        .StatsTypeNegative {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 2px;
+            border-radius: 10px;
+            background-color: white;
+
+            p {
+                margin: 0;
+                padding: 0;
+                color: red;
+            }
+
+            span {
+                color: red;
+            }
+        }
+    }
+}

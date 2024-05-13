@@ -1,0 +1,74 @@
+[
+    {
+        "id": 2441310,
+        "name": "Snicker Vento",
+        "sales": 128,
+        "img": "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNuZWFrZXJzfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 2441311,
+        "name": "Candy Blast",
+        "sales": 92,
+        "img": "https://www.andindia.com/on/demandware.static/-/Sites-AND-Library/default/dw3d3ad5e0/images/APR2024/22/category%202%20tops.jpg"
+    },
+    {
+        "id": 2441312,
+        "name": "Choco Delight",
+        "sales": 210,
+        "img": "https://www.andindia.com/on/demandware.static/-/Sites-AND-Library/default/dw0bf30a78/images/APR2024/22/Trending%20Now%20Section%20(3).jpg"
+    },
+    {
+        "id": 2441313,
+        "name": "Fruit Fusion",
+        "sales": 175,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwa61dce05/images/hires/SS22/AND-S24ACCTO09BEG%20(1).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441314,
+        "name": "Popcorn Surprise",
+        "sales": 300,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw99c0ad79/images/hires/AND-F23ACCFW01PBL-POWDER%20BLUE%20(1).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441315,
+        "name": "Berry Bliss",
+        "sales": 150,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw47d72d6d/images/hires/SS22/AND-S24AR005TR118_MULTI-(2).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441310,
+        "name": "Luxe Printed Dress",
+        "sales": 128,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw96595f21/images/hires/SS22/AND-S24AV134DRR107-BLK-PRT-(4).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441311,
+        "name": "Snow Breeze Viscose Blend Shirt",
+        "sales": 92,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw992ed300/images/hires/SS22/AND-S24AV126BTNR-NAVY-(3)NEW.jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441312,
+        "name": "All Blanc Everything Linen Co-ord Set",
+        "sales": 210,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwaeafa57b/images/hires/SS22/AND-S24AJ069TDC-LGREEN-(5).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441313,
+        "name": "Americano Linen Co-ord Set",
+        "sales": 175,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw07e96e4f/images/hires/SS22/AND-S24AJ027DRR77-WHTPRT-(3).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441314,
+        "name": "Checkmate Recycled Satin Top",
+        "sales": 300,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwaa3f8ba8/images/hires/SS22/AND-S24AV0792PLYD-BLACK-(1).jpg?sw=400&sh=600&sm=fit"
+    },
+    {
+        "id": 2441315,
+        "name": "Never Enough Pink Shirt",
+        "sales": 150,
+        "img": "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw040a18de/images/hires/SS22/AND-S24AV0632PCEY-BLACK-(4).jpg?sw=400&sh=600&sm=fit"
+    }
+]

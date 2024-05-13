@@ -1,0 +1,13 @@
+<div class="Auth">
+    <div class="AuthHome">
+        <img src="../../assets/analytics.svg" alt="">
+        <form class="Form" #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+            <p>Admin Panel</p>
+            <div class="FormElements">
+                <input type="text" pInputText placeholder="Email" [(ngModel)]="email" name="email" />
+                <input type="password" pInputText placeholder="Password" [(ngModel)]="password" name="password" />
+                <p-button class="btn" label="Submit" type="Submit" icon="pi pi-check" />
+            </div>
+        </form>
+    </div>
+</div>

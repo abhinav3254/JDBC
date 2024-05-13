@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ecommerce Revenue",
+        "amount": "$245,450",
+        "data": "14.9%",
+        "change": "+43.21%"
+    },
+    {
+        "name": "New Customers",
+        "amount": "684",
+        "data": "-8.6%",
+        "change": ""
+    },
+    {
+        "name": "Repeat Purchase Rate",
+        "amount": "75.12%",
+        "data": "25.4%",
+        "change": "+20.11%"
+    },
+    {
+        "name": "Average Order Value",
+        "amount": "$2,412.23",
+        "data": "35.2%",
+        "change": "+$754"
+    },
+    {
+        "name": "Conversion rate",
+        "amount": "32.65%",
+        "data": "-12.42%",
+        "change": ""
+    }
+]

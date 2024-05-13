@@ -1,0 +1,33 @@
+<div class="RecentOrders">
+    <p class="HeadLine">Recent Orders</p>
+    <table [width]="100">
+        <tr>
+            <th>Product</th>
+            <th>Customer</th>
+            <th>Order ID</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+        <tr *ngFor="let order of orders">
+            <td class="productNametd">
+                <div class="productName">
+                    <img class="productImage" src={{order.img}} alt={{order.productName}}>
+                    <p>{{order?.productName}}</p>
+                </div>
+            </td>
+            <td>{{order.customer}}</td>
+            <td>{{order.id}}</td>
+            <td>{{order.date | date}}</td>
+            <td class="Status" *ngIf="checkIsPending(order.status)">
+                <div class="Pending">{{order.status}}</div>
+            </td>
+            <td class="Status" *ngIf="checkIsCompleted(order.status)">
+                <div class="Completed">{{order.status}}</div>
+            </td>
+            <td class="Status" *ngIf="checkIsShipped(order.status)">
+                <div class="Shipped">{{order.status}}</div>
+            </td>
+
+        </tr>
+    </table>
+</div>

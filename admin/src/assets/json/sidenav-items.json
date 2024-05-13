@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Genreal",
+        "options": [
+            {
+                "icon": "pi pi-th-large",
+                "name": "Dashboard",
+                "link": "/dashboard"
+            },
+            {
+                "icon": "pi pi-apple",
+                "name": "Product",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-apple",
+                "name": "Inventory",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-apple",
+                "name": "Customers",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-apple",
+                "name": "Review",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-money-bill",
+                "name": "Payment",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-check",
+                "name": "Integration",
+                "link": "/product"
+            }
+        ]
+    },
+    {
+        "name": "ACCOUNT",
+        "options": [
+            {
+                "icon": "pi pi-cog",
+                "name": "Settings",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-info-circle",
+                "name": "Help",
+                "link": "/product"
+            },
+            {
+                "icon": "pi pi-users",
+                "name": "Manage Users",
+                "link": "/product"
+            }
+        ]
+    }
+]

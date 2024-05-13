@@ -1,0 +1,70 @@
+<div class="SideNavFlex">
+    <div class="SideNav">
+        <app-side-nav></app-side-nav>
+    </div>
+
+    <div class="Dashboard">
+        <div class="Header">
+            <div class="HeaderLeft">
+                <p>Welcome Back, Mahfuzul!</p>
+                <p>Here's what happening with your store today</p>
+            </div>
+            <div class="HeaderRight">
+                <div class="card flex justify-content-center">
+                    <p-dropdown [options]="years" [(ngModel)]="selectedYear" optionLabel="year" placeholder="Year"
+                        (ngModelChange)="onYearChange()" />
+                </div>
+                <p-button label="View All Time"></p-button>
+            </div>
+        </div>
+        <div class="DashboardBody">
+            <div class="StatCardContainer">
+                <div class="StatCard" *ngFor="let stat of stats">
+                    <app-stats-card [stat]="stat"></app-stats-card>
+                </div>
+            </div>
+            <div class="SideBySide">
+                <div class="summary">
+                    <app-summary></app-summary>
+                </div>
+                <div class="SellingProducts">
+                    <p class="HeadLine">Most Selling Products</p>
+                    <div class="SellingProductsScroll">
+                        <div class="SellingProductsDiv" *ngFor="let top of topSelling">
+                            <div class="SellingProductsDivImage">
+                                <img src={{top.img}} alt="">
+                            </div>
+                            <div class="SellingProductsDivDetails">
+                                <p class="SellingProductsDivDetailsName">{{top.name}}</p>
+                                <p>ID: {{top.id}}</p>
+                            </div>
+                            <p class="SellingProductsDivDetailsSales">{{top.sales}} Sales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Orders -->
+        <div class="OrdersDiv">
+            <div class="RecentOrders">
+                <app-recent-orders></app-recent-orders>
+            </div>
+            <div class="WeeklyTopCustomers">
+                <p>Weekly Top Customers</p>
+                <div class="CustomerContainer">
+                    <div class="Customer" *ngFor="let cutomer of topCustomers">
+                        <img src={{cutomer.img}} alt={{cutomer.name}}>
+                        <div class="CustomerDetails">
+                            <p>{{cutomer.name}}</p>
+                            <p>{{cutomer.orders}} Orders</p>
+                        </div>
+                        <div class="ViewBtn">
+                            <p>View</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

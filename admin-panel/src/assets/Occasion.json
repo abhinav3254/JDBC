@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "label": "XF-12-#FF",
+        "name": "wedding",
+        "status": false
+    },
+    {
+        "id": 2,
+        "label": "XT-13-#DD",
+        "name": "birthday",
+        "status": true
+    },
+    {
+        "id": 3,
+        "label": "XE-14-#CC",
+        "name": "anniversary",
+        "status": true
+    },
+    {
+        "id": 4,
+        "label": "XG-15-#BB",
+        "name": "graduation",
+        "status": true
+    },
+    {
+        "id": 5,
+        "label": "XR-16-#AA",
+        "name": "prom",
+        "status": true
+    },
+    {
+        "id": 6,
+        "label": "XQ-17-#99",
+        "name": "baby shower",
+        "status": true
+    },
+    {
+        "id": 7,
+        "label": "XW-18-#88",
+        "name": "engagement",
+        "status": true
+    },
+    {
+        "id": 8,
+        "label": "XZ-19-#77",
+        "name": "housewarming",
+        "status": true
+    },
+    {
+        "id": 9,
+        "label": "XV-20-#66",
+        "name": "retirement",
+        "status": true
+    },
+    {
+        "id": 10,
+        "label": "XX-21-#55",
+        "name": "farewell",
+        "status": true
+    },
+    {
+        "id": 11,
+        "label": "XY-22-#44",
+        "name": "christening",
+        "status": true
+    },
+    {
+        "id": 12,
+        "label": "XA-23-#33",
+        "name": "house party",
+        "status": true
+    },
+    {
+        "id": 13,
+        "label": "XJ-24-#22",
+        "name": "reunion",
+        "status": true
+    },
+    {
+        "id": 14,
+        "label": "XL-25-#11",
+        "name": "bon voyage",
+        "status": true
+    },
+    {
+        "id": 15,
+        "label": "XC-26-#EE",
+        "name": "concert",
+        "status": true
+    },
+    {
+        "id": 16,
+        "label": "XK-27-#DD",
+        "name": "game night",
+        "status": true
+    },
+    {
+        "id": 17,
+        "label": "XN-28-#CC",
+        "name": "barbecue",
+        "status": true
+    },
+    {
+        "id": 18,
+        "label": "XM-29-#BB",
+        "name": "picnic",
+        "status": true
+    },
+    {
+        "id": 19,
+        "label": "XB-30-#AA",
+        "name": "cinema night",
+        "status": true
+    },
+    {
+        "id": 20,
+        "label": "XP-31-#99",
+        "name": "karaoke",
+        "status": true
+    },
+    {
+        "id": 21,
+        "label": "XS-32-#88",
+        "name": "potluck",
+        "status": true
+    },
+    {
+        "id": 22,
+        "label": "XO-33-#77",
+        "name": "masquerade",
+        "status": true
+    },
+    {
+        "id": 23,
+        "label": "XZ-34-#66",
+        "name": "pool party",
+        "status": true
+    },
+    {
+        "id": 24,
+        "label": "XU-35-#55",
+        "name": "talent show",
+        "status": true
+    },
+    {
+        "id": 25,
+        "label": "XE-36-#44",
+        "name": "themed party",
+        "status": true
+    },
+    {
+        "id": 26,
+        "label": "XV-37-#33",
+        "name": "gala",
+        "status": true
+    },
+    {
+        "id": 27,
+        "label": "XW-38-#22",
+        "name": "luncheon",
+        "status": true
+    },
+    {
+        "id": 28,
+        "label": "XQ-39-#11",
+        "name": "banquet",
+        "status": true
+    },
+    {
+        "id": 29,
+        "label": "XT-40-#EE",
+        "name": "brunch",
+        "status": true
+    },
+    {
+        "id": 30,
+        "label": "XF-41-#DD",
+        "name": "dinner party",
+        "status": true
+    },
+    {
+        "id": 31,
+        "label": "XM-42-#CC",
+        "name": "cocktail party",
+        "status": true
+    },
+    {
+        "id": 32,
+        "label": "XN-43-#BB",
+        "name": "happy hour",
+        "status": true
+    },
+    {
+        "id": 33,
+        "label": "XL-44-#AA",
+        "name": "wine tasting",
+        "status": true
+    },
+    {
+        "id": 34,
+        "label": "XX-45-#99",
+        "name": "pub crawl",
+        "status": true
+    },
+    {
+        "id": 35,
+        "label": "XY-46-#88",
+        "name": "bonfire",
+        "status": true
+    },
+    {
+        "id": 36,
+        "label": "XJ-47-#77",
+        "name": "campfire",
+        "status": true
+    },
+    {
+        "id": 37,
+        "label": "XC-48-#66",
+        "name": "road trip",
+        "status": true
+    },
+    {
+        "id": 38,
+        "label": "XP-49-#55",
+        "name": "picnic",
+        "status": true
+    },
+    {
+        "id": 39,
+        "label": "XS-50-#44",
+        "name": "outing",
+        "status": true
+    },
+    {
+        "id": 40,
+        "label": "XO-51-#33",
+        "name": "vacation",
+        "status": true
+    },
+    {
+        "id": 41,
+        "label": "XZ-52-#22",
+        "name": "staycation",
+        "status": true
+    },
+    {
+        "id": 42,
+        "label": "XU-53-#11",
+        "name": "holiday",
+        "status": true
+    },
+    {
+        "id": 43,
+        "label": "XE-54-#EE",
+        "name": "house party",
+        "status": true
+    },
+    {
+        "id": 44,
+        "label": "XV-55-#DD",
+        "name": "game night",
+        "status": true
+    },
+    {
+        "id": 45,
+        "label": "XF-56-#CC",
+        "name": "sleepover",
+        "status": true
+    },
+    {
+        "id": 46,
+        "label": "XM-57-#BB",
+        "name": "movie night",
+        "status": true
+    },
+    {
+        "id": 47,
+        "label": "XN-58-#AA",
+        "name": "game tournament",
+        "status": true
+    },
+    {
+        "id": 48,
+        "label": "XL-59-#99",
+        "name": "group outing",
+        "status": true
+    },
+    {
+        "id": 49,
+        "label": "XX-60-#88",
+        "name": "outing",
+        "status": true
+    },
+    {
+        "id": 50,
+        "label": "XY-61-#77",
+        "name": "celebration",
+        "status": true
+    }
+]

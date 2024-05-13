@@ -1,15 +1,16 @@
-.Tables {
+.ExtraAccordion {
     display: flex;
-
-    .CategoryTable {
+    padding: 10px;
+    .ExtraAccordionTab {
         width: 50%;
         margin: 10px;
-        padding: 10px;
     }
+}
 
-    .SubCategoryTable {
-        width: 50%;
-        margin: 10px;
-        padding: 10px;
-    }
+.OccasionHeader {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
